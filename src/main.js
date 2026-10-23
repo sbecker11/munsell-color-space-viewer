@@ -78,8 +78,6 @@ function main() {
         renderer.setSize(window.innerWidth, window.innerHeight);
     });
 
-    // Clear the HTML content of the div with id="info"
-    document.getElementById('info').innerHTML = 'Munsell Color Space';
 }
 
 main();

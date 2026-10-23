@@ -1,7 +1,7 @@
-# munsell-space
+# munsell-color-space-viewer
 
   
-<a href="https://sbecker11.github.io/munsell-space/" target="_blank">Here's </a> my Munsell Color Space using <a href="https://threejs.org/" target="_blank">threeJS</a>    
+<a href="https://sbecker11.github.io/munsell-color-space-viewer/" target="_blank">Here's </a> my Munsell Color Space using <a href="https://threejs.org/" target="_blank">threeJS</a>    
 
 <img src="./media/munsell-rolodex-blocks-33.jpg">
 

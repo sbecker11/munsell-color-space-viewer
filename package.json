@@ -1,10 +1,12 @@
 {
+  "name": "munsell-color-space-viewer",
+  "homepage": "https://sbecker11.github.io/munsell-color-space-viewer/",
   "scripts": {
     "clean-dist": "rm -rf ./dist/*",
     "clean-node": "rm -rf ./node_modules ./package-lock.json && npm cache clean --force",
     "clean": "npm run clean-dist && npm run clean-node",
     "build": "npm run clean-dist && webpack --config ./webpack.config.js --mode production --env homepage=$npm_package_homepage",
-    "dev": "vite"
+    "dev": "vite --open chrome --port 3001"
   },
   "dependencies": {
     "install": "^0.13.0",
@@ -15,7 +17,7 @@
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.4",
     "babel-loader": "^9.1.3",
-    "copy-webpack-plugin": "^12.0.2",
+    "copy-webpack-plugin": "^14.0.0",
     "html-webpack-plugin": "^5.6.0",
     "vite": "^5.4.4",
     "webpack": "^5.94.0",

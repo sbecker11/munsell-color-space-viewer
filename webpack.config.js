@@ -1,7 +1,7 @@
 //
 // webpack.config.js
-// output.publicPath: '/workspace-rolodex/'
-// devServer.static.publicPath: '/workspace-rolodex/'
+// output.publicPath: '/munsell-color-space-viewer/'
+// devServer.static.publicPath: '/munsell-color-space-viewer/'
 // devServer.port: 9000
 // devServer.proxy.target: 'http://localhost:5000'
 // 
@@ -16,7 +16,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'main.[contenthash].js',
-    publicPath: '/munsell-space/',  // Update this to match your repository name
+    publicPath: '/munsell-color-space-viewer/',  // Update this to match your repository name
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -49,7 +49,7 @@ module.exports = {
   devServer: {
     static: {
       directory: path.join(__dirname, 'dist'),
-      publicPath: '/munsell-space/',  // Ensure this matches the output publicPath
+      publicPath: '/munsell-color-space-viewer/',  // Ensure this matches the output publicPath
     },
     compress: true,
     port: 9000,
