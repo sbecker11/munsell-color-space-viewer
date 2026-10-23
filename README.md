@@ -1,9 +1,10 @@
-# munsell-color-space-viewer
+# Munsell-Color-Space-Viewer
 
-  
-<a href="https://sbecker11.github.io/munsell-color-space-viewer/" target="_blank">Here's </a> my Munsell Color Space using <a href="https://threejs.org/" target="_blank">threeJS</a>    
+<a href="https://sbecker11.github.io/munsell-color-space-viewer/" target="_blank" rel="noopener noreferrer"><img src="./media/viewer-33.png" alt="Munsell-Color-Space-Viewer"></a>
 
-<img src="./media/munsell-rolodex-blocks-33.jpg">
+
+
+**RunMe:** [https://sbecker11.github.io/munsell-color-space-viewer/](https://sbecker11.github.io/munsell-color-space-viewer/)
 
 ## See my related project <a href="https://github.com/sbecker11/workspace-munsell" target="_blank">workspace-munsell</a>
 
@@ -18,7 +19,7 @@ verify node installation:
 ```
 node -v
 npm -v
-```   
+```
 
 ## Building and running the Node app locally
 run thr following npm (node package manager) commands in your project's root directory.  
@@ -28,5 +29,4 @@ npm install
 npm run build
 npm run dev
 ```
-
 
